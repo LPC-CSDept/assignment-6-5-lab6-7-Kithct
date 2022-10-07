@@ -11,9 +11,9 @@ void swap(int &a,int &b,int &c)
 {
     int temp;
     temp=a;
-    a=b;
-    b=c;
-    c=temp;
+    a=c;
+    c=b;
+    b=temp;
 }
 // swaptwo() ; to swap two values (a, b) to (b, a)
 void swaptwo(int &a,int &b)
